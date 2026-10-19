@@ -1,16 +1,26 @@
-# React + Vite
+# Günlük Alışkanlık Takipçisi (Habit Tracker)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern web geliştirme eğitimi kapsamında **ReactJS** ve **Tailwind CSS** kullanılarak geliştirilmiş, kullanıcıların günlük alışkanlıklarını kolayca takip edebileceği interaktif bir web uygulamasıdır.
 
-Currently, two official plugins are available:
+## 🚀 Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Yeni Alışkanlık Ekleme (Create):** İstediğiniz kategoride yeni alışkanlıklar ekleyebilirsiniz.
+- **Listeleme (Read):** Eklenen tüm alışkanlıkları ve kategorilerini anlık olarak görüntüleyebilirsiniz.
+- **Durum Güncelleme (Update):** Alışkanlıklarınızı tamamlandıkça işaretleyebilir (checkbox) ve üstünü çizebilirsiniz.
+- **Silme (Delete):** Artık takip etmek istemediğiniz alışkanlıkları listeden çıkarabilirsiniz.
+- **Kalıcı Veri (LocalStorage):** Sayfa yenilense bile verileriniz tarayıcı hafızasında saklanır.
 
-## React Compiler
+## 🛠️ Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **ReactJS** (Vite ile yapılandırılmıştır)
+- **Tailwind CSS** (Modern ve duyarlı arayüz tasarımı için)
+- **JavaScript (ES6+)**
+- **LocalStorage API**
 
-## Expanding the ESLint configuration
+## 📦 Kurulum ve Çalıştırma
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları takip edebilirsiniz:
+
+1. Depoyu klonlayın:
+   ```bash
+   git clone [https://github.com/Ch2oma/habit-tracker.git](https://github.com/Ch2oma/habit-tracker.git)
